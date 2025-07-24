@@ -1,0 +1,3 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_ID, NAME, if(SEX_UPON_INTAKE LIKE 'Neutered%' OR SEX_UPON_INTAKE LIKE 'Spayed%', 'O', 'X') 중성화
+FROM ANIMAL_INS 
